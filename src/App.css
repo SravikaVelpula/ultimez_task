@@ -1,0 +1,72 @@
+
+.page-intro {
+  text-align: center;
+}
+.page-intro h1, .page-intro p {
+  color: #fff;
+}
+.login-form, .register-form {
+  height: 100vh;
+  background: #022354;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-block {
+  background: #083983;
+  padding: 30px 50px;
+  width: 450px;
+  margin: auto;
+  border-radius: 10px;
+}
+.form-block input {
+  background: #245daffa;
+  border: none;
+  height: 45px;
+  color: #a4b9ce;
+}
+.form-control:focus {
+  color: #a4b9ce;
+  background-color: #245daffa;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.action-btn button {
+  width: 100%;
+  height: 45px;
+  background: yellow;
+  color: #084298;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.red {
+  color: red;
+}
+.login-modal {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+.table-data {
+  padding: 30px;
+}
+
+
+
+::placeholder { 
+  color: #a4b9ce !important;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: #a4b9ce !important;
+}
+
+:-ms-input-placeholder { 
+  color: #a4b9ce !important;
+}
