@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ultimez_task/static/css/main.cddf5206.css",
+    "main.js": "/ultimez_task/static/js/main.79a35a8b.js",
+    "static/js/787.e5007b74.chunk.js": "/ultimez_task/static/js/787.e5007b74.chunk.js",
+    "index.html": "/ultimez_task/index.html",
+    "main.cddf5206.css.map": "/ultimez_task/static/css/main.cddf5206.css.map",
+    "main.79a35a8b.js.map": "/ultimez_task/static/js/main.79a35a8b.js.map",
+    "787.e5007b74.chunk.js.map": "/ultimez_task/static/js/787.e5007b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cddf5206.css",
+    "static/js/main.79a35a8b.js"
+  ]
+}
