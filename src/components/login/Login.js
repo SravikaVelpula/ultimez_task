@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { useNavigate, redirect} from 'react-router-dom';
+import { useNavigate, Link} from 'react-router-dom';
 import ActionButton from '../button/ActionButton';
 import InputField from '../inputField/InputField';
 
@@ -92,6 +92,7 @@ function Login() {
                     <InputField type="email" id="email" name="login_id" isValid={login_id} onChangeEvent={changeHandler} placeholder="User name or Email" mbSize="4" />
                     <InputField type="password" id="password" name="password" isValid={password} onChangeEvent={changeHandler} placeholder="Password" mbSize="4" />
                     <ActionButton title="Sign in" type="submit" />
+                    <p className='login_here'><Link to={'/register'}>Create new account</Link></p>
                 </Form>
             </div>
         </>
