@@ -89,7 +89,7 @@ function Login() {
             <div className='form-block login'>
                 {!isValidCred ? <p className='red'>Invalid Login Credentials.</p> : null}
                 <Form autoComplete="off" onSubmit={handleSubmit}>
-                    <InputField type="email" id="email" name="login_id" isValid={login_id} onChangeEvent={changeHandler} placeholder="User name or Email" mbSize="4" />
+                    <InputField type="text" id="email" name="login_id" isValid={login_id} onChangeEvent={changeHandler} placeholder="User name or Email" mbSize="4" />
                     <InputField type="password" id="password" name="password" isValid={password} onChangeEvent={changeHandler} placeholder="Password" mbSize="4" />
                     <ActionButton title="Sign in" type="submit" />
                     <p className='login_here'><Link to={'/register'}>Create new account</Link></p>
