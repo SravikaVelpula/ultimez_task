@@ -107,7 +107,7 @@ function Register() {
             validateFields(errors)
         } else {
             console.log("coming to else")
-            // userRegister();
+            userRegister();
         }
     }
 
